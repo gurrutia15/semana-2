@@ -1,7 +1,6 @@
 // alert('esto es un alert')
-$(document).ready(function(){
-    $("form").submit(function(evento){
-        getFormData();
-        evento.preventDefault()
-    })
+
+let btn = document.getElementById('boton')
+btn.addEventListener('click', (event)=>{
+    event.preventDefault();    
 })
